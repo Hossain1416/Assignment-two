@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-normal-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* header */
+ .nav, .banner{
+    max-width: 1159px;
+    margin: 0 auto;
+  }
+  .nav-parent{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 186px;
+    
+  }
+  .logo-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .School{
+    font-size: 32px;
+    font-weight: 700px;
+  }
+  .Home-parent{
+    display: flex;
+    gap: 20px;
+  }
+  a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.btn{
+    background-color: orange;
+    font-size: 20px;
+    font-weight: 600px;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 61px;
+}
+.Home{
+   color: orange;
+   font-size: 20px;
+   font-weight: 700px; 
+}
+.about{
+    color: skyblue;
+    font-size: 20px;
+    font-weight: 500px;
+}
+.Facilities{
+    color: #05D4DF;
+    font-size: 20px;
+    font-weight: 500px;
+}
+.admission{
+    color: #5D58EF;
+    font-size: 20px;
+    font-weight: 500px;
+}
+.checkbtn{
+    font-size: 30px;
+    float: right;
+    line-height: 110px;
+    margin-left: 40px;
+    cursor: pointer;
+    display: none;
+    color: black;
+}
+#check{
+    display: none;
+}
+.banner-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding:0 40px;
+
+}
+.banner-img > img{
+    width: 400px;
+}
+.banner-text{
+    font-size: 56px;
+    font-weight: 700px;
+}
+.Empowering{
+    color: orange;
+}
+.towards-vision{
+    color: skyblue;
+}
+.banner-para{
+    font-size: 20px;
+}
+.enroll-btn{
+    background-color: black;
+    color: white;
+    padding: 15px 47px;
+    font-size: 20px;
+    font-weight: 700px;
+    border: none;
+    border-radius: 12px;
+}
+
+/* main */
+main{
+    background-image: url(../assets/bg.png);
+}
+.card-section{
+    max-width: 1159px;
+    margin: 0 auto;
+}
+.Curriculum-headline{
+    font-size: 46px;
+    font-weight: 700px;
+    text-align: center;
+}
+.card-parent{
+    display: flex;
+    gap: 20px;
+}
+.kinder{
+    background-color: #569dc9;
+background-image: linear-gradient(160deg, #569dc9 0%, #ffffff 50%, #88f773 100%);
+border-radius: 19px;
+align-items: center;
+padding: 50px;
+height: 500px;
+}
+
+.kinder-font, .elementary-font, .middle-font{
+    font-size: 25px;
+    font-weight: 700px;
+    text-align: center;
+   
+}
+.elementary{
+    background-color: #fff3ff;
+background-image: linear-gradient(0deg, #fff3ff 0%, #d6ffff 50%, #6df7f7 100%);
+border-radius: 19px;
+align-items: center;
+padding: 50px;
+height: 500px;
+}
+.middle{
+    background-color: #6fbbff;
+background-image: linear-gradient(180deg, #6fbbff 12%, #fdfdfd 50%, #aaf5df 100%);
+border-radius: 19px;
+align-items: center;
+padding: 50px;
+height: 500px;
+}
+.kinder-a{
+    color: rgb(246, 4, 153);
+    font-size: 15px;
+    font-weight: 700px;
+    text-align: center;
+    border: none;
+}
+.elementary-a{
+    color: #ffd500;
+    font-size: 15px;
+    font-weight: 700px;
+    text-align: center;
+    border: none;
+}
+.middle-a{
+    color: rgb(0, 119, 255);
+    font-size: 15px;
+    font-weight: 700px;
+    text-align: center;
+    border: none;
+}
+.kinder>img{
+    margin-left: 60px;
+}
+.elementary>img{
+    margin-left: 60px;
+}
+.middle>img{
+    margin-left: 60px;
+}
+
+/* media */
+  @media screen and (max-width:576px) {
+    .checkbtn{
+        display: block;
+        margin-right: 20px;
+    }
+    
+    .btn{
+        display: none;
+    }
+    .Home-parent{
+        display: none;
+    }
+    
+    .banner-flex{
+        flex-direction: column-reverse;
+        gap: 0px;
+        margin-left: 80px;
+     }
+     .nav-parent{
+        justify-content: space-between;
+      }
+     .nav{
+        border: 0.5px solid orange;
+     }
+     .banner-img>img{
+        width: 350px;
+     }
+     .banner-info{
+        justify-content: center;
+        text-align: center;
+        margin: 0px;
+     }
+     .card-parent{
+        flex-direction: column;
+     }
+     
+   }
