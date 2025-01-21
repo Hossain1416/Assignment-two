@@ -204,6 +204,9 @@ height: 500px;
     border-radius: 100%;
     text-align: center;
 }
+.arrow-icon-left:hover{
+    background-color: #05D4DF;
+}
 .arrow-icon-right{
     color: white;
     font-size: 30px;
@@ -212,6 +215,9 @@ height: 500px;
     padding: 25px;
     border-radius: 100%;
     text-align: center;
+}
+.arrow-icon-right:hover{
+    background-color: #05D4DF;
 }
 .arrow-icon{
     text-align: center;
