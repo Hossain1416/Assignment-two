@@ -180,6 +180,7 @@ height: 500px;
     text-align: center;
     border: none;
 }
+
 .kinder>img{
     margin-left: 60px;
 }
@@ -188,6 +189,28 @@ height: 500px;
 }
 .middle>img{
     margin-left: 60px;
+}
+.arrow-icon-left{
+    color: white;
+    font-size: 30px;
+    border: none;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 100%;
+    text-align: center;
+}
+.arrow-icon-right{
+    color: white;
+    font-size: 30px;
+    border: none;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 100%;
+    text-align: center;
+}
+.arrow-icon{
+    text-align: center;
+    margin: 80px;
 }
 
 /* media */
@@ -225,6 +248,9 @@ height: 500px;
      }
      .card-parent{
         flex-direction: column;
+     }
+     .arrow-icon{
+        display: none;
      }
      
    }
