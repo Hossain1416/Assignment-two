@@ -327,12 +327,13 @@ height: 500px;
 }
 .img-flex{
     display: flex;
+    gap: 10px;
 }
 #About-School{
     font-size: 24px;
     font-weight: 700px;
     color: white;
-}
+ }
 #keep{
     font-size: 26px;
     font-weight: 700px;
