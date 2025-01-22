@@ -11,7 +11,7 @@
     color: #0c0c0c;
     font-size: 20px;
 }
- .nav, .banner, .full-story{
+ .nav, .banner, .full-story, .parent-of-footer{
     max-width: 1159px;
     margin: 0 auto;
   }
@@ -247,6 +247,7 @@ height: 500px;
     border-radius: 16px;
  }
  
+ 
 .story-bg>img{
     border-radius: 10px;
 }
@@ -298,6 +299,45 @@ height: 500px;
     text-align: center;
     padding: 80px;
 }
+/* footer */
+.parent-of-footer{
+    display: flex;
+    gap: 172px;
+    padding: 143px 206px 154px 162px;
+}
+.footer-bg{
+    background-color: #0e0e0e;
+}
+.logo-flex{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.kids-education{
+    font-size: 25px;
+    font-weight: 700px;
+    color: white;
+}
+.kids-para{
+    font-size: 20px;
+    color: white;
+}
+.About{
+    color: white;
+}
+.img-flex{
+    display: flex;
+}
+#About-School{
+    font-size: 24px;
+    font-weight: 700px;
+    color: white;
+}
+#keep{
+    font-size: 26px;
+    font-weight: 700px;
+    color: white;
+}
 
 
 /* media */
@@ -343,7 +383,7 @@ height: 500px;
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
         align-items: center;
-        padding: 60px;
+        padding: 50px;
      }
      .story-one{
         display: none;
@@ -352,4 +392,13 @@ height: 500px;
         padding: 0px 0px 40px 0px;
         
      }
+     .parent-of-footer{
+        flex-direction: column;
+        padding: 50px 20px 100px 20px;
+        justify-content: center;
+        align-items: start;
+        gap: 50px;
+        
+     }
+     
    }
